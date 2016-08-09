@@ -13,9 +13,9 @@ import org.springframework.web.client.RestTemplate;
 @EnableAutoConfiguration(exclude = {EmbeddedServletContainerAutoConfiguration.class, WebMvcAutoConfiguration.class})
 
 public class SpringbootResttemplateApplication {
-    protected static final String ACCESS_TOKEN = "EAACEdEose0cBAM4Co67TdHNoXHdt9sy1EyJQYZBt5W1408FiFYb3pG1yzmUgpnhixijnmsTS3bEZCIQEhYsQnZAuLybZC17dbmVQpUBHTzv8YkDHJ2D3tkm1DKZCNMN8BhHYUZB7ISFZBVWeZC1ZBmRnylyAhdRKdhvFMcTrFNbDBPgZDZD";
+    protected static final String ACCESS_TOKEN = "EAACEdEose0cBAMGGv3mkZAHLBAI3mFuabFsKc02zyfxbypeCCZCBGseaJy8hpCDsOXKB838vpvmo3m0chrJdZBma74WVJR22mkL87UVChsUjYrmDoZB5DKmGBgOR8Bx1rF06B5YGVWkJVhIUz7BIZBIq7Ng5jsS8r7RzOpeVtLAZDZD";
     private static final String API_VERSION = "2.7";
-    private static final String GRAPH_API_URL = "https://graph.facebook.com/v" + API_VERSION + "/me";
+    private static final String GRAPH_API_URL = "https://graph.facebook.com/v" + API_VERSION + "/me?access_token=" + ACCESS_TOKEN;
 
     public static void main(String[] args) {
 
